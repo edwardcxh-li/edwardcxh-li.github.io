@@ -22,7 +22,7 @@
 1. Fonts
 ------------------------------------------------------------ */
 /* Google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=DM+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap');
 
 /* Linear Icons Font */
 @import url('./fonts/linear-icons-font/style.css');
@@ -49,7 +49,7 @@ body {
   height: 100%;
   min-height: 100%;
   font-size: 15px;
-  font-family: 'Inter', Helvetica, sans-serif;
+  font-family: 'Manrope', Helvetica, sans-serif;
   line-height: 1.7em;
   overflow: hidden;
   color: #444;
@@ -61,7 +61,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: #111;
-  font-family: 'Inter', Helvetica, sans-serif;
+  font-family: 'Manrope', Helvetica, sans-serif;
   font-weight: 600;
 }
 
@@ -130,7 +130,7 @@ input[type="submit"] {
   color: #fff;
   background-color: #2563EB;
   border-radius: 6px;
-  font-family: 'Inter', Helvetica, sans-serif;
+  font-family: 'Manrope', Helvetica, sans-serif;
   font-weight: 500;
   letter-spacing: 0.01em;
   transition: all 0.2s ease-in-out;
@@ -381,7 +381,7 @@ input[type="submit"]:hover {
   color: rgba(255,255,255,0.55);
   margin: 4px 0;
   line-height: 1.4em;
-  font-family: 'DM Mono', monospace;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 /* --- Social Links --- */
@@ -588,7 +588,7 @@ input[type="text"] {
   -moz-box-shadow: none;
   box-shadow: none;
   outline: none;
-  font-family: 'Inter', Helvetica, sans-serif;
+  font-family: 'Manrope', Helvetica, sans-serif;
   box-shadow: 0px 10px 10px -8px rgba(0,0,0,.1);
 }
 
@@ -818,7 +818,7 @@ textarea.form-control, textarea.form-control:focus {
   color: #2563EB;
   margin-right: 5px;
   font-weight: 600;
-  font-family: 'DM Mono', monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-size: 0.85em;
 }
 /* --- End Simple Info List --- */
@@ -1181,7 +1181,7 @@ textarea.form-control, textarea.form-control:focus {
 
 .skills-second-style .skill-value {
   font-size: 11px;
-  font-family: 'DM Mono', monospace;
+  font-family: 'IBM Plex Mono', monospace;
   line-height: 1.1em;
   position: relative;
   float: right;
